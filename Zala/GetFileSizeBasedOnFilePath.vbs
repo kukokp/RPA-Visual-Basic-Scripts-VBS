@@ -1,3 +1,6 @@
+'Pass file path inside " " so path use as single line.
+' Ex: "C:\Folder_name\filename"
+
 Dim Fso, Msg, FileObj, FilePath,C_Count
 Set Fso = CreateObject("Scripting.FileSystemObject") 'Creates "FileSystemObject" Object.
 

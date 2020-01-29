@@ -1,0 +1,6 @@
+fromDate = WScript.Arguments.Item(0)
+toDate= WScript.Arguments.Item(1)
+Interval = WScript.Arguments.Item(2)
+Result = DateDiff(Interval, fromDate, toDate)
+WScript.StdOut.Write(Result)
+'MsgBox(Result)
